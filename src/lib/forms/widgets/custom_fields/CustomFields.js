@@ -51,7 +51,7 @@ export class CustomFields extends Component {
     return (
       <>
         {sections.map(({ section, fields, paths }) => (
-          <AccordionField key={section} includesPaths={paths} label={section} active>
+          <AccordionField key={section} includesPaths={paths} label={section}>
             {fields}
           </AccordionField>
         ))}
